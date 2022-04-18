@@ -47,7 +47,7 @@ header nav a:hover {
 .main-movie {
   font-size: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%),
-    url('/img/punisher.jpg');
+    url('../img/punisher.jpg');
   height: 400px;
   background-size: cover;
   display: flex;
@@ -115,11 +115,15 @@ header nav a:hover {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
+}
+
+#footer .copyright {
+  padding: 10px;
 }
 
 #footer {
